@@ -55,7 +55,7 @@ spring-petclinic
  └── README.md
 
 
-Controller: (Handle HTTP)
+Controller: (Handle HTTP requests)
 OwnerController
 PetController
 VetController
@@ -72,3 +72,24 @@ owner registration
 pet visits
 vet scheduling
 
+Model: (Represent the database tables.)
+Owner
+Pet
+Visit
+Vet
+Specialty
+PetType
+BaseEntity
+
+
+View layer (src/main/resources/templates) - Uses Thymeleaf templates
+owners/
+pets/
+vets/
+visits/
+MVC flow:
+GET /owners/find
+→ OwnerController
+→ repository call
+→ thymeleaf template
+→ HTML page
