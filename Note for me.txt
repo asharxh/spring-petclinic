@@ -163,3 +163,16 @@ Kubernetes
 CI/CD
 GitHub Actions
 Testcontainers
+
+
+contributions:
+add new endpoints
+add new entity
+add new repository queries
+add REST API
+improve tests
+refactor architecture
+add caching
+add security
+convert to microservices
+integrate external APIs
