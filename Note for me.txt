@@ -1,0 +1,74 @@
+Architecture:
+
+Client (Browser)
+      │
+      ▼
+Spring MVC Controllers (Web layer)
+      │
+      ▼
+Service / Domain Logic
+      │
+      ▼
+Repository Layer (Spring Data JPA)
+      │
+      ▼
+Database (H2 / MySQL)
+
+
+Core stack used in the repo:
+
+Java 17+
+Spring Boot
+Spring MVC
+Spring Data JPA
+Hibernate
+Thymeleaf
+Maven
+H2 database
+JUnit tests
+
+Repository Structure :
+
+spring-petclinic
+ ├── src
+ │   ├── main
+ │   │   ├── java/org/springframework/samples/petclinic
+ │   │   │   ├── owner
+ │   │   │   ├── pet
+ │   │   │   ├── vet
+ │   │   │   ├── visit
+ │   │   │   └── model
+ │   │   │
+ │   │   ├── PetClinicApplication.java
+ │   │
+ │   │   └── resources
+ │   │       ├── templates (Thymeleaf HTML)
+ │   │       ├── static (CSS, JS)
+ │   │       └── application.properties
+ │
+ │   └── test
+ │       └── java
+ │           └── integration tests
+ │
+ ├── pom.xml
+ ├── mvnw
+ └── README.md
+
+
+Controller: (Handle HTTP)
+OwnerController
+PetController
+VetController
+VisitController
+
+Repository: (Responsibilities - DB queries, CRUD operations, JPA mapping)
+OwnerRepository
+PetRepository
+VetRepository
+VisitRepository
+
+Service:
+owner registration
+pet visits
+vet scheduling
+
