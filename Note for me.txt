@@ -93,3 +93,73 @@ GET /owners/find
 → repository call
 → thymeleaf template
 → HTML page
+
+
+
+Prerequisites:
+Java fundamentals:
+OOP
+Collections
+Streams
+Generics
+Exceptions
+Annotations
+
+Maven:
+pom.xml
+dependencies
+plugins
+build lifecycle
+
+SQL basics:
+tables
+foreign keys
+joins
+indexes
+
+Spring Boot:
+@SpringBootApplication
+@SpringBootTest
+application.properties
+auto configuration
+
+Spring MVC:
+@Controller
+@RequestMapping
+@GetMapping
+@PostMapping
+@PathVariable
+@ModelAttribute
+
+Dependency Injection:
+@Component
+@Service
+@Repository
+@Autowired
+@Bean
+
+Spring Data JPA:
+@Entity
+@Id
+@OneToMany
+@ManyToOne
+JpaRepository
+derived queries
+
+Thymeleaf:
+th:each
+th:text
+th:if
+th:href
+
+Testing: (JUnit, Spring Test)
+@Test
+@SpringBootTest
+@WebMvcTest
+
+DevOps / Tooling:
+Docker
+Kubernetes
+CI/CD
+GitHub Actions
+Testcontainers
