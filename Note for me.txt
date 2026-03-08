@@ -176,3 +176,11 @@ add caching
 add security
 convert to microservices
 integrate external APIs
+
+
+contributions examples:
+Pet vaccination records - New entity: Vaccination
+Add search pets by type - /pets?type=dog
+Add REST API endpoint - /api/owners, /api/pets, /api/visits
+Add authentication - login system
+Add pagination to owners list - 1 to 20
